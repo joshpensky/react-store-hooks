@@ -1,0 +1,15 @@
+{
+  "extends": ["@upstatement/eslint-config/react", "plugin:promise/recommended"],
+  "plugins": ["promise", "react-hooks"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": "off",
+    "promise/prefer-await-to-then": "error",
+    "react-hooks/exhaustive-deps": "off",
+    "react-hooks/rules-of-hooks": "error"
+  }
+}
